@@ -15,7 +15,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin:0;
-    padding:0 24px;
+    padding:5px 24px;
     position: relative;
 }
 .bold{
@@ -51,8 +51,6 @@ nav{
 
 .nav_area {
     display: flex;
-    padding: 8px;
-    right: 20px;
     justify-content: space-around;
 }
 
@@ -63,5 +61,41 @@ nav{
 
 ul li {
     display: flex;
-    padding: 0 10px;
+    padding: 0 8px;
+}
+
+.header {
+ width: 100%;
+ display: flex;
+ padding: 32px 24px;
+ background-color: lightgray;
+}
+
+.header_img {
+    width: 60%;
+    height: auto;
+    padding-right: 24px;
+}
+
+.header_text{
+    display: flex;
+    max-width: 30%;
+    color: rgb(65, 65, 65);
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+}
+
+.header_text h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+.header_text h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: lighter;
+}
+
+.button{
+    display: flex;
 }
