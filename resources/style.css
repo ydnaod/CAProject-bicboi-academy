@@ -214,6 +214,8 @@ ul li {
 
 .blue {
     color: blue;
+    font-weight: lighter;
+    font-size: smaller;
 }
 
 .text_light {
@@ -434,7 +436,9 @@ footer {
         flex-direction: column;
         width: 100%;
         justify-content: center;
-        padding: 16px 0;
+        align-items: center;
+        padding: 16px 0 8px 0;
+        border: none;
     }
     
     .info_box_img {
@@ -446,13 +450,17 @@ footer {
     
     .info_box_text {
         font-family: sans-serif;
-        font-size: 0;
+        font-size: 2.5rem;
         display:flex;
         flex-direction: column;
-        width:65%;
+        width:90%;
         justify-content: center;
         align-items: left;
-        line-height: 1.5rem;
-        padding: 16px 32px;
+        line-height: 3rem;
+        padding: 16px 16px 0 16px;
+    }
+    .blue {
+        color: blue;
+        font-size: 2rem;
     }
 }
