@@ -4,6 +4,10 @@
     padding:0;
     box-sizing: border-box;
 }
+
+.nav_mobile{
+    display:none;
+}
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: grey;
@@ -68,6 +72,10 @@ ul li {
     padding: 0 8px;
 }
 
+.header_mobile{
+    display:none;
+}
+
 .header {
  width: 100%;
  display: flex;
@@ -112,17 +120,20 @@ ul li {
     display: flex;
     color: white;
     width: 100%;
-    height: 200%;
+    height: auto;
     background-color: black;
     justify-content: center;
     align-items: center;
     opacity: 70%;
+    margin: 8px 0 0 0;
+    padding: 8px 0;
 }
 
 .button:hover {
     transition: all .8s ease-out 0s;
     opacity: 100%;
 }
+
 
 .info {
     width: 100%;
@@ -375,5 +386,30 @@ footer {
         justify-content: space-between;
         align-items: center;
         padding-top: 8px;
+    }
+
+    .header{
+        display:none;
+    }
+
+    .header_mobile{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .header_img_mobile{
+        width: 100%;
+        height: auto;
+    }
+    .header_form_mobile{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        background-color: lightgray;
+        color: rgb(65, 65, 65);
+        align-items: left;
+        padding: 20px 20px;
     }
 }
