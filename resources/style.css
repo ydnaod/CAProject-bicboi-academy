@@ -6,6 +6,7 @@
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
 }
 a{
     text-decoration: none;
@@ -121,4 +122,55 @@ ul li {
 .button:hover {
     transition: all .8s ease-out 0s;
     opacity: 100%;
+}
+
+.info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: white;
+}
+
+.info_pic {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info_img{
+    width: 100%;
+    height: auto;
+    padding: 32px 24px;
+}
+
+.info_img_text{
+    width: 100%;
+    padding: 0px 24px;
+}
+
+.info_info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.info_box {
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    padding-top: 32px;
+}
+
+.info_box_img {
+    width: 35%;
+    height: auto;
+}
+
+.info_box_text {
+    display:flex;
+    width:65%;
+    justify-content: center;
+    align-items: center;
 }
